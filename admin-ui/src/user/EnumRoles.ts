@@ -1,5 +1,6 @@
 export enum EnumRoles {
+  TaskUser = "taskUser",
   User = "user",
-  Manager = "manager",
   Admin = "admin",
+  Manager = "manager",
 }
