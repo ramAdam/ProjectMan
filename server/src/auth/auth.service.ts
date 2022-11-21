@@ -29,6 +29,7 @@ export class AuthService {
     }
     return null;
   }
+  
   async login(credentials: Credentials): Promise<UserInfo> {
     const { username, password } = credentials;
     const user = await this.validateUser(
