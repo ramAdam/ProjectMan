@@ -2,7 +2,7 @@
   "name": "@my-service/server",
   "private": true,
   "scripts": {
-    "start": "nest start",
+    "~": "nest start",
     "start:watch": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "build": "nest build",

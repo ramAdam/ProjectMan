@@ -22,7 +22,7 @@ export class UserController extends UserControllerBase {
   @common.UseInterceptors(AclValidateRequestInterceptor)
   @common.Patch("/:id/password")
   @nestAccessControl.UseRoles({
-    resource: "User",
+    resource: "taskUser",
     action: "update",
     possession: "any"
   })
